@@ -28,6 +28,10 @@ body {
     background-color: rgb(188,72,129);
 }
 
+#contact {
+    background-color: rgb(249,176,123)
+}
+
 .nav-wrapper {
     background: linear-gradient(to right, red , yellow);
     font-family: 'Righteous', cursive;
@@ -49,9 +53,11 @@ p {
 svg {
     height: 4rem;
 }
-/* #profile-pic {
-    width: 100%;
-} */
+
+#item1 {
+    background: url(../images/Giftastic.png); 
+}
+
 #profile-pic {
     border-radius: 50%;
     width:100%;
