@@ -13,6 +13,7 @@
     padding-top: 5rem;
     text-align: center;
     color: white;
+    font-family: 'Exo 2', sans-serif;
 }
 
 body {
@@ -20,12 +21,44 @@ body {
 }
 
 #about{
-    background-color: coral;
+    background-color: rgb(30,176,167);
 }
-/* html { 
-    background: url(../images/background1.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
+
+#gallery {
+    background-color: rgb(188,72,129);
+}
+
+.nav-wrapper {
+    background: linear-gradient(to right, red , yellow);
+    font-family: 'Righteous', cursive;
+  }
+
+h2 {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}  
+h5 {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+}
+
+svg {
+    height: 4rem;
+}
+/* #profile-pic {
+    width: 100%;
+} */
+#profile-pic {
+    border-radius: 50%;
+    width:100%;
+}
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Righteous', cursive; */
