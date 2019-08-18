@@ -54,14 +54,48 @@ svg {
     height: 4rem;
 }
 
-#item1 {
-    background: url(../images/Giftastic.png); 
+.carousel-item {
+    background: url(../images/art2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
+#item1 {
+    background: url(../images/Giftastic.png)
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+}
+
+#item2 {
+    background: url(../images/launchABILITY.png)
+}
 #profile-pic {
     border-radius: 50%;
     width:100%;
 }
+
+#cont-1 {
+    float: left;
+}
+#cont-2 {
+    float: right;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+     
+ .grow:hover { 
+    transform: scale(1.2); 
+    }
+
+/* Add on hover effects to icons and stuff -------------*/
 
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster', cursive;
