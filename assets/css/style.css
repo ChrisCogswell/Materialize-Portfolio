@@ -29,7 +29,7 @@ body {
 }
 
 #contact {
-    background-color: rgb(249,176,123)
+    background-color: rgb(249,176,123);
 }
 
 .nav-wrapper {
@@ -62,30 +62,11 @@ svg {
     background-size: cover; 
 }
 
-#item1 {
-    background: url(../images/Giftastic.png)
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
-}
-
-#item2 {
-    background: url(../images/launchABILITY.png)
-}
 #profile-pic {
     border-radius: 50%;
     width:100%;
 }
 
-#cont-1 {
-    float: left;
-}
-#cont-2 {
-    float: right;
-}
 
 .grow { 
     transition: all .2s ease-in-out; 
@@ -95,6 +76,14 @@ svg {
     transform: scale(1.2); 
     }
 
+.gallery-images {
+    height: 100%;
+    width: 100%;
+}
+
+.collapsible-body {
+    background-color: rgb(249,176,123);
+}
 /* Add on hover effects to icons and stuff -------------*/
 
 /* font-family: 'Josefin Sans', sans-serif;
