@@ -44,10 +44,12 @@ h2 {
 h5 {
     text-align: center;
     font-family: 'Exo 2', sans-serif;
+    border-bottom: 3px solid black;
 }
 
 p {
     font-family: 'Exo 2', sans-serif;
+    text-align: center;
 }
 
 svg {
@@ -79,10 +81,28 @@ svg {
 .gallery-images {
     height: 100%;
     width: 100%;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .collapsible-body {
-    background-color: rgb(249,176,123);
+    background: url(../images/crumpled-paper.jpg);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.collapsible-header {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+}
+
+#left-gallery {
+    background: linear-gradient(to right, rgb(30,176,167) , yellow);
+}
+
+#right-gallery {
+    background: linear-gradient(to right, yellow , rgb(30,176,167));
 }
 /* Add on hover effects to icons and stuff -------------*/
 
